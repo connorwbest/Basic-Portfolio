@@ -4,38 +4,44 @@
 <head>
     <title>Contact Me</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
         <!--Header/Navigation bar-->
-        <div>
+        <div class="navcontainer">
             <header class="label">
                 <h1>Connor Best</h1>
              </header>
     
-            <section class="nav1">
-                <h3>About</h3>
+            <section class="nav">
+                <ul>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
             </section>
-    
-            <section class="nav2">
-                <h3>Portfolio</h3>
-            </section>
-    
-            <section class="nav3">
-                <h3>Contact</h3>
-            </section>
+            
         </div>
         
         <!--Contact me Box w/input-->
-        <div class="Contact">
+        <div class="contact">
             <h1>Contact</h1>
             <form>
             <p>Name</p>
             <input type="text" name="fullname"><br>
             <p>Email</p>
             <input type="text" name="email"><br>
+            <section class="message">
             <p>Message</p>
             <input type="text" name="message"><br><br>
+            </section>
             <input type="submit" value="submit">
             </form>
         </div>
+
+        <!--Footer for the page-->
+    <div class="footer">
+            <p>Footer</p>
+        </div>
+    
